@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+:root {
+	--color-primary: #0073ff;
+	--color-white: #e9e9e9;
+	--color-black: #141d28;
+	--color-black-1: #212b38;
+	--color-denim: #1560bd;
+	--color-black-2: #00100c;
+	--color-red: #dc2626;
+	--color-green: #059669;
+	--color-yellow: #f59e0b;
+	--color-purple: #7c3aed;
+	--color-blue: #2563eb;
+	--color-gradient-First: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+	--color-background-Second: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%);
+	--color-gradient-Third: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%);
+	--color-gradient-Fourth: linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%);
+	--color-gradient-Sifth: linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+	--color-gradient-Sixth: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+		linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+		linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+	--color-gradient-Seventh: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(253, 29, 29, 1) 50%,
+		rgba(252, 176, 69, 1) 100%
+	);
+	--color-gradient-eighth: linear-gradient(
+		0deg,
+		rgba(34, 193, 195, 1) 0%,
+		rgba(183, 189, 93, 1) 62%,
+		rgba(253, 187, 45, 1) 100%
+	);
+	--color-gradient-Ninth: linear-gradient(
+		0deg,
+		rgba(34, 193, 195, 1) 0%,
+		rgba(183, 189, 93, 1) 35%,
+		rgba(145, 136, 58, 1) 53%,
+		rgba(101, 75, 18, 1) 66%
+	);
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 28px;
+}
+
+body {
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/de7uhhw-abc13ac1-69ec-44bb-807f-e90ebed893ed.jpg);
+	background-position: top;
+}
+
+.menu ul {
+	list-style-type: none;
+	letter-spacing: 1.5px;
+	line-height: 36px;
+}
+
+a {
+	color: var(--color-yellow);
+	color: gold;
+	text-decoration: none;
+}
+
+.text-position {
+	word-break: 40px;
+}
+
+.text-transform {
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+
+ul li {
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 14px;
+}
